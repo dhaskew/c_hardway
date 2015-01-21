@@ -1,11 +1,11 @@
 CFLAGS=-Wall -g
 
-all: ex1 ex2 ex3
+all: ex1 ex2 ex3 ex4 ex5
 
 clean:
+	rm -rf ex*.dSYM
 	rm -f ex1
-	rm -rf ex1.dSYM
 	rm -f ex2
-	rm -rf ex2.dSYM
 	rm -f ex3
-	rm -rf ex3.dSYM
+	rm -f ex4
+	rm -f ex5
